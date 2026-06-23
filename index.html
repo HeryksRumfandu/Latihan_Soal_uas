@@ -17,132 +17,133 @@
       </p>
     </header>
 
-    <!-- Question 1 (multi, Creational Pattern) -->
-    <section class="question" id="q1">
-      <div class="question-header">
-        <span class="question-number">Question 1</span>
-      </div>
-      <p class="question-text">
-        Di bawah ini termasuk dalam tipe Creational Pattern, yaitu:
-      </p>
-      <div class="options" data-multi="true">
-        <button class="option-btn" data-question="1" data-value="Observer">Observer</button>
-        <button class="option-btn" data-question="1" data-value="Composite">Composite</button>
-        <button class="option-btn" data-question="1" data-value="Factory">Factory</button>
-        <button class="option-btn" data-question="1" data-value="Mediator">Mediator</button>
-        <button class="option-btn" data-question="1" data-value="Singleton">Singleton</button>
-      </div>
-      <p class="hint">Jawaban bisa lebih dari satu.</p>
-    </section>
+   <!-- Question 1 (multi, Creational Pattern) -->
+<section class="question" id="q1">
+  <div class="question-header">
+    <span class="question-number">Question 1</span>
+  </div>
+  <p class="question-text">
+    Di bawah ini termasuk dalam tipe Creational Pattern, yaitu:
+  </p>
+  <div class="options" data-multi="true">
+    <button class="option-btn" data-question="1" data-value="Observer">Observer</button>
+    <button class="option-btn" data-question="1" data-value="Composite">Composite</button>
+    <button class="option-btn" data-question="1" data-value="Factory">Factory</button>
+    <button class="option-btn" data-question="1" data-value="Mediator">Mediator</button>
+    <button class="option-btn" data-question="1" data-value="Singleton">Singleton</button>
+  </div>
+  <p class="hint">Jawaban bisa lebih dari satu.</p>
+</section>
 
-    <!-- Question 2 (text, OCP + ICurrency, gambar_4 & gambar_5) -->
-    <section class="question" id="q2">
-      <div class="question-header">
-        <span class="question-number">Question 2</span>
-      </div>
-      <p class="question-text">
-        Lihat Gambar 4 dan Gambar 5. Andaikan sebuah kelas <code>Cheque</code> ditambahkan.
-        Supaya <code>Cheque</code> bisa disimpan <code>SavingsAccount</code>, kita tidak
-        perlu melakukan modifikasi terhadap fungsi <code>store</code> di interface
-        <code>BankAccount</code> dan kelas <code>SavingsAccount</code>. Hal ini terjadi
-        karena prinsip OCP telah berhasil diimplementasikan dengan baik. Artinya fungsi
-        <code>store</code> tidak mengalami perubahan (closed for modification) untuk setiap
-        penambahan kelas yang mengimplementasikan interface
-        <span class="underline">......................</span>
-        Sementara itu, kelas implementor dapat bertambah terus (open for extension) yang
-        mengakibatkan fungsionalitas dari fungsi <code>store</code> bertambah, tanpa harus
-        melakukan perubahan terhadap kode program.
-      </p>
+<!-- Question 2 (text, OCP + ICurrency, gambar_4 & gambar_5) -->
+<section class="question" id="q2">
+  <div class="question-header">
+    <span class="question-number">Question 2</span>
+  </div>
+  <p class="question-text">
+    Lihat Gambar 4 dan Gambar 5. Andaikan sebuah kelas <code>Cheque</code> ditambahkan.
+    Supaya <code>Cheque</code> bisa disimpan <code>SavingsAccount</code>, kita tidak
+    perlu melakukan modifikasi terhadap fungsi <code>store</code> di interface
+    <code>BankAccount</code> dan kelas <code>SavingsAccount</code>. Hal ini terjadi
+    karena prinsip OCP telah berhasil diimplementasikan dengan baik. Artinya fungsi
+    <code>store</code> tidak mengalami perubahan (closed for modification) untuk setiap
+    penambahan kelas yang mengimplementasikan interface
+    <span class="underline">......................</span>
+    Sementara itu, kelas implementor dapat bertambah terus (open for extension) yang
+    mengakibatkan fungsionalitas dari fungsi <code>store</code> bertambah, tanpa harus
+    melakukan perubahan terhadap kode program.
+  </p>
 
-      <div class="question-image-wrapper">
-        <img src="gambar_4.png" alt="Gambar 4" class="question-image">
-      </div>
-      <div class="question-image-wrapper">
-        <img src="gambar_5.png" alt="Gambar 5" class="question-image">
-      </div>
+  <div class="question-image-wrapper">
+    <img src="gambar_4.png" alt="Gambar 4" class="question-image">
+  </div>
+  <div class="question-image-wrapper">
+    <img src="gambar_5.png" alt="Gambar 5" class="question-image">
+  </div>
 
-      <input
-        type="text"
-        class="text-input"
-        id="q2-input"
-        placeholder="Ketik nama interface di sini (contoh: ICurrency)"
-      >
-    </section>
+  <input
+    type="text"
+    class="text-input"
+    id="q2-input"
+    placeholder="Ketik nama interface di sini (contoh: ICurrency)"
+  >
+</section>
 
-    <!-- Question 3 (multi, pernyataan benar tentang pattern) -->
-    <section class="question" id="q3">
-      <div class="question-header">
-        <span class="question-number">Question 3</span>
-      </div>
-      <p class="question-text">
-        Berikut ini merupakan pernyataan yang <strong>BENAR</strong> tentang pattern adalah:
-      </p>
-      <div class="options" data-multi="true">
-        <button class="option-btn" data-question="3" data-value="ObserverNoSubject">
-          Dalam pattern observer, observer tidak perlu mencatat subject yang diamati.
-        </button>
-        <button class="option-btn" data-question="3" data-value="FamilyTreeObserver">
-          Pohon silsilah keluarga merupakan contoh penerapan pattern observer.
-        </button>
-        <button class="option-btn" data-question="3" data-value="SingletonAllClasses">
-          Pattern singleton menjamin bahwa setiap kelas hanya dapat memiliki sebuah objek saja.
-        </button>
-        <button class="option-btn" data-question="3" data-value="CompositeDefinition">
-          Pattern composite mendefinisikan struktur hirarkis dengan mendefinisikan komposisi
-          rekursif obyek primitif dan obyek komposit sehingga klien memperlakukan obyek
-          individu dan obyek komposit secara uniform.
-        </button>
-        <button class="option-btn" data-question="3" data-value="PatternDefinition">
-          Pattern merupakan sebuah solusi atas sebuah problem yang dapat digunakan secara
-          berulang, tanpa harus membuat solusi dari awal.
-        </button>
-      </div>
-      <p class="hint">Pilih semua pernyataan yang benar.</p>
-    </section>
+<!-- Question 3 (multi, pernyataan BENAR tentang pattern) -->
+<section class="question" id="q3">
+  <div class="question-header">
+    <span class="question-number">Question 3</span>
+  </div>
+  <p class="question-text">
+    Berikut ini merupakan pernyataan yang <strong>BENAR</strong> tentang pattern adalah:
+  </p>
+  <div class="options" data-multi="true">
+    <button class="option-btn" data-question="3" data-value="ObserverNoSubject">
+      Dalam pattern observer, observer tidak perlu mencatat subject yang diamati.
+    </button>
+    <button class="option-btn" data-question="3" data-value="FamilyTreeObserver">
+      Pohon silsilah keluarga merupakan contoh penerapan pattern observer.
+    </button>
+    <button class="option-btn" data-question="3" data-value="SingletonAllClasses">
+      Pattern singleton menjamin bahwa setiap kelas hanya dapat memiliki sebuah objek saja.
+    </button>
+    <button class="option-btn" data-question="3" data-value="CompositeDefinition">
+      Pattern composite mendefinisikan struktur hirarkis dengan mendefinisikan komposisi
+      rekursif obyek primitif dan obyek komposit sehingga klien memperlakukan obyek
+      individu dan obyek komposit secara uniform.
+    </button>
+    <button class="option-btn" data-question="3" data-value="PatternDefinition">
+      Pattern merupakan sebuah solusi atas sebuah problem yang dapat digunakan secara
+      berulang, tanpa harus membuat solusi dari awal.
+    </button>
+  </div>
+  <p class="hint">Pilih semua pernyataan yang benar.</p>
+</section>
 
-    <!-- Question 4 (multi, elemen design pattern) -->
-    <section class="question" id="q4">
-      <div class="question-header">
-        <span class="question-number">Question 4</span>
-      </div>
-      <p class="question-text">
-        Berikut ini yang termasuk di dalam elemen dari design pattern:
-      </p>
-      <div class="options" data-multi="true">
-        <button class="option-btn" data-question="4" data-value="Consequences">Consequences</button>
-        <button class="option-btn" data-question="4" data-value="Solution">Solution</button>
-        <button class="option-btn" data-question="4" data-value="Name">Name</button>
-        <button class="option-btn" data-question="4" data-value="Description">Description</button>
-        <button class="option-btn" data-question="4" data-value="Problem">Problem</button>
-      </div>
-      <p class="hint">Pilih semua elemen yang benar.</p>
-    </section>
+<!-- Question 4 (multi, elemen design pattern) -->
+<section class="question" id="q4">
+  <div class="question-header">
+    <span class="question-number">Question 4</span>
+  </div>
+  <p class="question-text">
+    Berikut ini yang termasuk di dalam element dari design pattern:
+  </p>
+  <div class="options" data-multi="true">
+    <button class="option-btn" data-question="4" data-value="Consequences">Consequences</button>
+    <button class="option-btn" data-question="4" data-value="Solution">Solution</button>
+    <button class="option-btn" data-question="4" data-value="Name">Name</button>
+    <button class="option-btn" data-question="4" data-value="Description">Description</button>
+    <button class="option-btn" data-question="4" data-value="Problem">Problem</button>
+  </div>
+  <p class="hint">Pilih semua elemen yang benar.</p>
+</section>
 
-    <!-- Question 5 (multi, Counter + CounterTest) -->
-    <section class="question" id="q5">
-      <div class="question-header">
-        <span class="question-number">Question 5</span>
-      </div>
-      <p class="question-text">
-        Di bawah ini merupakan kelas <code>Counter</code>:
-      </p>
-      <pre class="code-block">
+<!-- Question 5 (multi, Counter + CounterTest) -->
+<section class="question" id="q5">
+  <div class="question-header">
+    <span class="question-number">Question 5</span>
+  </div>
+  <p class="question-text">
+    Di bawah ini merupakan kelas <code>Counter</code>:
+  </p>
+  <pre class="code-block">
 public class Counter {
     int count = 0;
     public Counter() {}
     public int increment() {
         return ++count;
     }
+
     public int decrement() {
         return --count;
     }
 }
-      </pre>
-      <p class="question-text">
-        Di bawah ini merupakan kelas pengujian untuk <code>Counter</code>:
-      </p>
-      <pre class="code-block">
-public class CounterTest extends junit.framework.TestCase{
+  </pre>
+  <p class="question-text">
+    Di bawah ini merupakan kelas pengujian untuk <code>Counter</code>:
+  </p>
+  <pre class="code-block">
+public class CounterTest extends junit.framework.TestCase {
     Counter counter1;
     public CounterTest() {
     }
@@ -164,167 +165,159 @@ public class CounterTest extends junit.framework.TestCase{
         assertTrue(counter1.decrement() == -1);
     }
 }
-      </pre>
-      <p class="question-text">
-        Apabila kelas pengujian tersebut dijalankan, test case mana sajakah yang failed?
-      </p>
-      <div class="options" data-multi="true">
-        <button class="option-btn" data-question="5" data-value="testIncrement">testIncrement</button>
-        <button class="option-btn" data-question="5" data-value="testDecrement">testDecrement</button>
-        <button class="option-btn" data-question="5" data-value="testIncrementFalse">testIncrementFalse</button>
-        <button class="option-btn" data-question="5" data-value="setUp">setUp</button>
-        <button class="option-btn" data-question="5" data-value="testDecrementFalse">testDecrementFalse</button>
-      </div>
-      <p class="hint">Jawaban bisa lebih dari satu.</p>
-    </section>
+  </pre>
+  <p class="question-text">
+    Apabila kelas pengujian tersebut dijalankan, test case mana sajakah yang failed?
+  </p>
+  <div class="options" data-multi="true">
+    <button class="option-btn" data-question="5" data-value="testIncrement">testIncrement</button>
+    <button class="option-btn" data-question="5" data-value="testDecrement">testDecrement</button>
+    <button class="option-btn" data-question="5" data-value="testIncrementFalse">testIncrementFalse</button>
+    <button class="option-btn" data-question="5" data-value="setUp">setUp</button>
+    <button class="option-btn" data-question="5" data-value="testDecrementFalse">testDecrementFalse</button>
+  </div>
+  <p class="hint">Jawaban bisa lebih dari satu.</p>
+</section>
 
-    <!-- Question 6 (single, getColumnName + gambar_2) -->
-    <section class="question" id="q6">
-      <div class="question-header">
-        <span class="question-number">Question 6</span>
-      </div>
-      <p class="question-text">
-        Lihat Gambar 2. Method <code>getColumnName</code> tersebut digunakan untuk:
-      </p>
+<!-- Question 6 (single, getColumnName + gambar_2) -->
+<section class="question" id="q6">
+  <div class="question-header">
+    <span class="question-number">Question 6</span>
+  </div>
+  <p class="question-text">
+    Lihat Gambar 2. Method <code>getColumnName</code> tersebut digunakan untuk:
+  </p>
 
-      <div class="question-image-wrapper">
-        <img src="gambar_2.png" alt="Gambar 2" class="question-image">
-      </div>
+  <div class="question-image-wrapper">
+    <img src="gambar_2.png" alt="Gambar 2" class="question-image">
+  </div>
 
-      <div class="options" data-multi="false">
-        <button class="option-btn" data-question="6" data-value="ShowDataTable">
-          Menampilkan data pegawai pada komponen table
-        </button>
-        <button class="option-btn" data-question="6" data-value="DefineColumnNames">
-          Menentukan nama kolom yang akan ditampilkan pada komponen table
-        </button>
-        <button class="option-btn" data-question="6" data-value="GetColumnNames">
-          Mengambil nama kolom yang akan ditampilkan pada komponen table
-        </button>
-        <button class="option-btn" data-question="6" data-value="GetRowColumnCount">
-          Mendapatkan jumlah baris dan kolom dari data yang akan ditampilkan
-        </button>
-        <button class="option-btn" data-question="6" data-value="GetSelectedRowData">
-          Mendapatkan data dari baris yang dipilih oleh pengguna
-        </button>
-      </div>
-    </section>
+  <div class="options" data-multi="false">
+    <button class="option-btn" data-question="6" data-value="ShowDataTable">
+      Menampilkan data pegawai pada komponen table
+    </button>
+    <button class="option-btn" data-question="6" data-value="DefineColumnNames">
+      Menentukan nama kolom yang akan ditampilkan pada komponen table
+    </button>
+    <button class="option-btn" data-question="6" data-value="GetColumnNames">
+      Mengambil nama kolom yang akan ditampilkan pada komponen table
+    </button>
+    <button class="option-btn" data-question="6" data-value="GetRowColumnCount">
+      Mendapatkan jumlah baris dan kolom dari data yang akan ditampilkan
+    </button>
+    <button class="option-btn" data-question="6" data-value="GetSelectedRowData">
+      Mendapatkan data dari baris yang dipilih oleh pengguna
+    </button>
+  </div>
+</section>
 
-    <!-- Question 7 (single, persistence layer True/False) -->
-    <section class="question" id="q7">
-      <div class="question-header">
-        <span class="question-number">Question 7</span>
-      </div>
-      <p class="question-text">
-        Perhatikan potongan kode berikut ini:
-      </p>
-      <pre class="code-block">
+<!-- Question 7 (single, persistence layer True/False) -->
+<section class="question" id="q7">
+  <div class="question-header">
+    <span class="question-number">Question 7</span>
+  </div>
+  <p class="question-text">
+    Perhatikan potongan kode berikut ini:
+  </p>
+  <pre class="code-block">
 public Mahasiswa showMahasiswa(String query) {
     con = dbcon.makeConnection();
-    String sql = "SELECT m.*, p.* FROM mahasiswa as m JOIN prodi as p " +
-                 "ON m.kode_prodi = p.kode_prodi WHERE (m.npm LIKE" +
-                 "'%" + query + "%'" +
-                 "OR m.nama_mhs LIKE '%" + query + "%'" +
-                 "OR p.nama_prodi LIKE '%" + query + "%')";
+    String sql = "SELECT m.*, p.* FROM mahasiswa as m JOIN prodi as p ON m.kode_prodi = p.kode_prodi WHERE (m.npm LIKE"
+                 + "'%" + query + "%'"
+                 + "OR m.nama_mhs LIKE '%" + query + "%'"
+                 + "OR p.nama_prodi LIKE '%" + query + "%')";
     Mahasiswa m;
     //kode yang lain dihilangkan
     return m;
 }
-      </pre>
-      <p class="question-text">
-        Berdasarkan kasus pada tutorial, potongan code berikut ini terletak pada persistence layer
-        dan merupakan potongan code yang benar untuk mengambil data mahasiswa dari database
-        berdasarkan kunci pencarian tertentu.
-      </p>
-      <div class="options" data-multi="false">
-        <button class="option-btn" data-question="7" data-value="True">True</button>
-        <button class="option-btn" data-question="7" data-value="False">False</button>
-      </div>
-    </section>
+  </pre>
+  <p class="question-text">
+    Berdasarkan kasus pada tutorial, potongan code berikut ini terletak pada persistence layer dan merupakan potongan code
+    yang benar untuk mengambil data mahasiswa dari database berdasarkan kunci pencarian tertentu.
+  </p>
+  <div class="options" data-multi="false">
+    <button class="option-btn" data-question="7" data-value="True">True</button>
+    <button class="option-btn" data-question="7" data-value="False">False</button>
+  </div>
+</section>
 
-    <!-- Question 8 (single, jenis kelas untuk UI) -->
-    <section class="question" id="q8">
-      <div class="question-header">
-        <span class="question-number">Question 8</span>
-      </div>
-      <p class="question-text">
-        Pada package view (interface layer), untuk membuat UI yang akan dilihat oleh pengguna,
-        kita harus membuat kelas baru dengan tipe:
-      </p>
-      <div class="options" data-multi="false">
-        <button class="option-btn" data-question="8" data-value="JavaPackage">Java Package</button>
-        <button class="option-btn" data-question="8" data-value="JavaClass">Java Class</button>
-        <button class="option-btn" data-question="8" data-value="JPanelForm">JPanel Form</button>
-        <button class="option-btn" data-question="8" data-value="JavaInterface">Java Interface</button>
-        <button class="option-btn" data-question="8" data-value="JFrameForm">JFrame Form</button>
-      </div>
-    </section>
+<!-- Question 8 (single, jenis kelas UI) -->
+<section class="question" id="q8">
+  <div class="question-header">
+    <span class="question-number">Question 8</span>
+  </div>
+  <p class="question-text">
+    Pada package view (interface layer), untuk membuat UI yang akan dilihat oleh pengguna, kita harus membuat kelas baru dengan tipe:
+  </p>
+  <div class="options" data-multi="false">
+    <button class="option-btn" data-question="8" data-value="JavaPackage">Java Package</button>
+    <button class="option-btn" data-question="8" data-value="JavaClass">Java Class</button>
+    <button class="option-btn" data-question="8" data-value="JPanelForm">JPanel Form</button>
+    <button class="option-btn" data-question="8" data-value="JavaInterface">Java Interface</button>
+    <button class="option-btn" data-question="8" data-value="JFrameForm">JFrame Form</button>
+  </div>
+</section>
 
-    <!-- Question 9 (single, Microsoft Access True/False) -->
-    <section class="question" id="q9">
-      <div class="question-header">
-        <span class="question-number">Question 9</span>
-      </div>
-      <p class="question-text">
-        Program JAVA dapat menyimpan data dalam penyimpanan sekunder berupa file Microsoft Access.
-      </p>
-      <div class="options" data-multi="false">
-        <button class="option-btn" data-question="9" data-value="True">True</button>
-        <button class="option-btn" data-question="9" data-value="False">False</button>
-      </div>
-    </section>
+<!-- Question 9 (single, MS Access True/False) -->
+<section class="question" id="q9">
+  <div class="question-header">
+    <span class="question-number">Question 9</span>
+  </div>
+  <p class="question-text">
+    Program JAVA dapat menyimpan data dalam penyimpanan sekunder berupa file Microsoft Access.
+  </p>
+  <div class="options" data-multi="false">
+    <button class="option-btn" data-question="9" data-value="True">True</button>
+    <button class="option-btn" data-question="9" data-value="False">False</button>
+  </div>
+</section>
 
-    <!-- Question 10 (single, Mysterious constructor + gambar_10) -->
-    <section class="question" id="q10">
-      <div class="question-header">
-        <span class="question-number">Question 10</span>
-      </div>
-      <p class="question-text">
-        Lihat Gambar 10. Eksekusi perintah berikut ini pada main program
-        akan mengakibatkan terjadinya kesalahan:
-      </p>
+<!-- Question 10 (single, Mysterious + Gambar 10) -->
+<section class="question" id="q10">
+  <div class="question-header">
+    <span class="question-number">Question 10</span>
+  </div>
+  <p class="question-text">
+    Lihat Gambar 10. Eksekusi perintah berikut ini pada main program akan mengakibatkan terjadinya kesalahan:
+  </p>
 
-      <div class="question-image-wrapper">
-        <img src="gambar_10.png" alt="Gambar 10" class="question-image">
-      </div>
+  <div class="question-image-wrapper">
+    <img src="gambar_10.png" alt="Gambar 10" class="question-image">
+  </div>
 
-      <pre class="code-block">
+  <pre class="code-block">
 Mysterious ms = new Mysterious();
-      </pre>
-      <div class="options" data-multi="false">
-        <button class="option-btn" data-question="10" data-value="True">True</button>
-        <button class="option-btn" data-question="10" data-value="False">False</button>
-      </div>
-    </section>
+  </pre>
+  <div class="options" data-multi="false">
+    <button class="option-btn" data-question="10" data-value="True">True</button>
+    <button class="option-btn" data-question="10" data-value="False">False</button>
+  </div>
+</section>
 
-    <!-- nanti lanjut q11 dst di bawah sini -->
-     <!-- Question 11 -->
+<!-- Question 11 (single, tipe pattern menyusun grup) -->
 <section class="question" id="q11">
   <div class="question-header">
     <span class="question-number">Question 11</span>
   </div>
   <p class="question-text">
-    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat
-    perubahan pada IPK mahasiswa, maka dosen pembimbing dan orang tua/wali mahasiswa
-    akan diberi notifikasi. Untuk memecahkan permasalahan ini dapat digunakan solusi
-    pattern:
+    Menyusun grup dari sebuah objek atau kelas ke dalam struktur yang lebih besar, merupakan pengertian dari tipe pattern.
   </p>
   <div class="options" data-multi="false">
-    <button class="option-btn" data-question="11" data-value="Composite">Composite</button>
-    <button class="option-btn" data-question="11" data-value="Observer">Observer</button>
-    <button class="option-btn" data-question="11" data-value="Factory">Factory</button>
-    <button class="option-btn" data-question="11" data-value="Singleton">Singleton</button>
+    <button class="option-btn" data-question="11" data-value="Creational">Creational</button>
+    <button class="option-btn" data-question="11" data-value="Relational">Relational</button>
+    <button class="option-btn" data-question="11" data-value="Behavioral">Behavioral</button>
     <button class="option-btn" data-question="11" data-value="Builder">Builder</button>
+    <button class="option-btn" data-question="11" data-value="Structural">Structural</button>
   </div>
 </section>
 
-<!-- Question 12 -->
+<!-- Question 12 (single, btnDeleteActionPerformed) -->
 <section class="question" id="q12">
   <div class="question-header">
     <span class="question-number">Question 12</span>
   </div>
   <p class="question-text">
-    Perhatikan potongan kode berikut ini:
+    Perhatikan potongan kode berikut:
   </p>
   <pre class="code-block">
 private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {
@@ -346,184 +339,14 @@ private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {
   </div>
 </section>
 
-<!-- Question 13 (text) -->
+<!-- Question 13 (text, LSP amt ICurrency) -->
 <section class="question" id="q13">
   <div class="question-header">
     <span class="question-number">Question 13</span>
   </div>
   <p class="question-text">
-    Pada prinsip perancangan kelas, perubahan pada satu kelas tidak memiliki pengaruh
-    yang besar pada kelas lain disebut dengan ... coupling
-  </p>
-  <input
-    type="text"
-    class="text-input"
-    id="q13-input"
-    placeholder="Ketik satu kata jawaban (mis: loose)"
-  >
-</section>
-
-<!-- Question 14 (text) -->
-<section class="question" id="q14">
-  <div class="question-header">
-    <span class="question-number">Question 14</span>
-  </div>
-  <p class="question-text">
-    Sebuah desain dikatakan memiliki kohesi yang tinggi bila setiap method di dalam
-    sebuah kelas saling bekerjasama untuk menyelesaikan satu tugas utama. Sebaliknya,
-    kohesi yang rendah disebut dengan istilah ... cohesion.
-  </p>
-  <input
-    type="text"
-    class="text-input"
-    id="q14-input"
-    placeholder="Ketik satu kata jawaban"
-  >
-</section>
-
-<!-- Question 15 -->
-<section class="question" id="q15">
-  <div class="question-header">
-    <span class="question-number">Question 15</span>
-  </div>
-  <p class="question-text">
-    Lihat Gambar 1. Potongan kode pada Gambar 1 merupakan:
-  </p>
-
-  <div class="question-image-wrapper">
-    <img src="gambar_1.png" alt="Gambar 1" class="question-image">
-  </div>
-
-  <div class="options" data-multi="false">
-    <button class="option-btn" data-question="15" data-value="TestCase">
-      Kode program untuk test case
-    </button>
-    <button class="option-btn" data-question="15" data-value="PersistenceLayer">
-      Kode program pada persistence layer
-    </button>
-    <button class="option-btn" data-question="15" data-value="ViewLayer">
-      Kode program pada view layer
-    </button>
-    <button class="option-btn" data-question="15" data-value="ControllerLayer">
-      Kode program pada controller layer
-    </button>
-    <button class="option-btn" data-question="15" data-value="BusinessLayer">
-      Kode program pada business layer
-    </button>
-  </div>
-</section>
-
-<!-- Question 16 (multi) -->
-<section class="question" id="q16">
-  <div class="question-header">
-    <span class="question-number">Question 16</span>
-  </div>
-  <p class="question-text">
-    Di bawah ini merupakan hal-hal yang diuji dalam unit testing, yaitu:
-  </p>
-  <div class="options" data-multi="true">
-    <button class="option-btn" data-question="16" data-value="Sistem">
-      Keseluruhan sistem
-    </button>
-    <button class="option-btn" data-question="16" data-value="Kelas">
-      Sebuah kelas
-    </button>
-    <button class="option-btn" data-question="16" data-value="Fungsi">
-      Fungsi
-    </button>
-    <button class="option-btn" data-question="16" data-value="BeberapaMethod">
-      Beberapa method
-    </button>
-    <button class="option-btn" data-question="16" data-value="BeberapaKelas">
-      Beberapa kelas
-    </button>
-  </div>
-  <p class="hint">Jawaban bisa lebih dari satu.</p>
-</section>
-
-<!-- Question 17 -->
-<section class="question" id="q17">
-  <div class="question-header">
-    <span class="question-number">Question 17</span>
-  </div>
-  <p class="question-text">
-    Berikut ini merupakan helper methods yang digunakan untuk membantu menentukan
-    apakah sebuah fungsi berperilaku benar atau tidak:
-  </p>
-  <div class="options" data-multi="false">
-    <button class="option-btn" data-question="17" data-value="assertFalse">assertFalse</button>
-    <button class="option-btn" data-question="17" data-value="assertNotTrue">assertNotTrue</button>
-    <button class="option-btn" data-question="17" data-value="assertNotSame">assertNotSame</button>
-    <button class="option-btn" data-question="17" data-value="assertNotEquals">assertNotEquals</button>
-    <button class="option-btn" data-question="17" data-value="assertNull">assertNull</button>
-  </div>
-</section>
-
-<!-- Question 18 -->
-<section class="question" id="q18">
-  <div class="question-header">
-    <span class="question-number">Question 18</span>
-  </div>
-  <p class="question-text">
-    Lihat Gambar 3. Gambar 3 berikut ini menunjukkan penerapan dari Dependency
-    Inversion Principle.
-  </p>
-
-  <div class="question-image-wrapper">
-    <img src="gambar_3.png" alt="Gambar 3" class="question-image">
-  </div>
-
-  <div class="options" data-multi="false">
-    <button class="option-btn" data-question="18" data-value="True">True</button>
-    <button class="option-btn" data-question="18" data-value="False">False</button>
-  </div>
-</section>
-
-<!-- Question 19 -->
-<section class="question" id="q19">
-  <div class="question-header">
-    <span class="question-number">Question 19</span>
-  </div>
-  <p class="question-text">
-    Single Responsibility Principle dan Interface Segregation Principle pada prinsipnya
-    merupakan pattern yang digunakan untuk menurunkan kohesivitas.
-  </p>
-  <div class="options" data-multi="false">
-    <button class="option-btn" data-question="19" data-value="True">True</button>
-    <button class="option-btn" data-question="19" data-value="False">False</button>
-  </div>
-</section>
-
-<!-- Question 20 -->
-<section class="question" id="q20">
-  <div class="question-header">
-    <span class="question-number">Question 20</span>
-  </div>
-  <p class="question-text">
-    Lihat Gambar 6. Kelas <code>Leaf</code> pada Composite Pattern memungkinkan
-    untuk memiliki struktur pohon lain di dalamnya.
-  </p>
-
-  <div class="question-image-wrapper">
-    <img src="gambar_6.png" alt="Gambar 6" class="question-image">
-  </div>
-
-  <div class="options" data-multi="false">
-    <button class="option-btn" data-question="20" data-value="True">True</button>
-    <button class="option-btn" data-question="20" data-value="False">False</button>
-  </div>
-</section>
-
-
-<!-- Question 13 (text, LSP amt tipe ICurrency) -->
-<section class="question" id="q13">
-  <div class="question-header">
-    <span class="question-number">Question 13</span>
-  </div>
-  <p class="question-text">
-    Lihat Gambar 5. Untuk menerapkan prinsip Liskov's Substitution Principle, maka
-    tipe parameter <code>amt</code> pada fungsi <code>store</code> (baris 18 dan 35)
-    adalah ...
+    Lihat Gambar 5. Untuk menerapkan princip Liskov's Substitution Principle, maka tipe parameter
+    <code>amt</code> pada fungsi <code>store</code> (baris 18 dan 35) adalah ..............
   </p>
 
   <div class="question-image-wrapper">
@@ -544,8 +367,8 @@ private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {
     <span class="question-number">Question 14</span>
   </div>
   <p class="question-text">
-    Prinsip perancangan dimana satu unit kode seharusnya selalu bertanggung jawab pada
-    satu dan hanya satu tugas (task) disebut dengan ...
+    Prinsip perancangan dimana satu unit kode seharusnya selalu bertanggung jawab pada satu dan hanya satu tugas (task)
+    disebut dengan ...
   </p>
   <input
     type="text"
@@ -555,7 +378,7 @@ private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {
   >
 </section>
 
-<!-- Question 15 (True/False, entity Mahasiswa) -->
+<!-- Question 15 (single, entity Mahasiswa) -->
 <section class="question" id="q15">
   <div class="question-header">
     <span class="question-number">Question 15</span>
@@ -574,9 +397,8 @@ public class Mahasiswa {
 }
   </pre>
   <p class="question-text">
-    Berdasarkan kasus pada tutorial, potongan code di atas terletak pada entity layer
-    dan merupakan kode yang benar untuk menunjukkan relasi antar entity
-    <code>Prodi</code> dan <code>Mahasiswa</code>.
+    Berdasarkan kasus pada tutorial, potongan code di atas terletak pada entity layer dan merupakan kode yang benar untuk
+    menunjukkan relasi antar entity Prodi dan Mahasiswa.
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="15" data-value="True">True</button>
@@ -584,7 +406,7 @@ public class Mahasiswa {
   </div>
 </section>
 
-<!-- Question 16 (multi, arsitektur aplikasi umum) -->
+<!-- Question 16 (multi, arsitektur aplikasi) -->
 <section class="question" id="q16">
   <div class="question-header">
     <span class="question-number">Question 16</span>
@@ -593,44 +415,37 @@ public class Mahasiswa {
     Berikut ini adalah arsitektur dari aplikasi yang umum dibuat...
   </p>
   <div class="options" data-multi="true">
-    <button class="option-btn" data-question="16" data-value="EntityLayer">
-      Entity Layer
-    </button>
-    <button class="option-btn" data-question="16" data-value="InterfaceLayer">
-      Interface Layer
-    </button>
-    <button class="option-btn" data-question="16" data-value="ControlLayer">
-      Control Layer
-    </button>
-    <button class="option-btn" data-question="16" data-value="DatabaseLayer">
-      Database Layer
-    </button>
-    <button class="option-btn" data-question="16" data-value="PersistenceLayer">
-      Persistence Layer
-    </button>
+    <button class="option-btn" data-question="16" data-value="EntityLayer">Entity Layer</button>
+    <button class="option-btn" data-question="16" data-value="InterfaceLayer">Interface Layer</button>
+    <button class="option-btn" data-question="16" data-value="ControlLayer">Control Layer</button>
+    <button class="option-btn" data-question="16" data-value="DatabaseLayer">Database Layer</button>
+    <button class="option-btn" data-question="16" data-value="PersistenceLayer">Persistence Layer</button>
   </div>
   <p class="hint">Jawaban bisa lebih dari satu.</p>
 </section>
 
-<!-- Question 17 (True/False, test case amount 0, balance 5000) -->
+<!-- Question 17 (single, test case amount 0) -->
 <section class="question" id="q17">
   <div class="question-header">
     <span class="question-number">Question 17</span>
   </div>
   <p class="question-text">
-    Perhatikan Gambar 13. Berikut ini merupakan test case yang benar untuk pengujian
-    kelas <code>BankAccount</code> apabila diuji dengan class testing.
+    Perhatikan Gambar 13. Berikut ini merupakan test case yang benar untuk pengujian kelas
+    <code>BankAccount</code> apabila diuji dengan class testing.
   </p>
   <p class="question-text small">
-    amount : 0, balance : 5000, expected output: "amount must be &gt;= 0"
+    amount : 0, balance: 5000, expected output: "amount must be &gt;= 0"
   </p>
+  <div class="question-image-wrapper">
+    <img src="gambar_13.png" alt="Gambar 13" class="question-image">
+  </div>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="17" data-value="True">True</button>
     <button class="option-btn" data-question="17" data-value="False">False</button>
   </div>
 </section>
 
-<!-- Question 18 (fungsi Control Layer, single) -->
+<!-- Question 18 (single, fungsi Control Layer) -->
 <section class="question" id="q18">
   <div class="question-header">
     <span class="question-number">Question 18</span>
@@ -657,7 +472,7 @@ public class Mahasiswa {
   </div>
 </section>
 
-<!-- Question 19 (True/False, test case amount 5000, balance 5000) -->
+<!-- Question 19 (single, test case amount 5000) -->
 <section class="question" id="q19">
   <div class="question-header">
     <span class="question-number">Question 19</span>
@@ -667,24 +482,27 @@ public class Mahasiswa {
     kelas <code>BankAccount</code> apabila diuji dengan class testing.
   </p>
   <p class="question-text small">
-    amount : 5000, balance : 5000, expected output: --
+    amount : 5000, balance: 5000, expected output: --
   </p>
+  <div class="question-image-wrapper">
+    <img src="gambar_13.png" alt="Gambar 13" class="question-image">
+  </div>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="19" data-value="True">True</button>
     <button class="option-btn" data-question="19" data-value="False">False</button>
   </div>
 </section>
 
-<!-- Question 20 (Subject pada kasus observer IPK) -->
+<!-- Question 20 (single, Subject kasus IPK) -->
 <section class="question" id="q20">
   <div class="question-header">
     <span class="question-number">Question 20</span>
   </div>
   <p class="question-text">
-    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat
-    perubahan pada IPK mahasiswa, maka dosen pembimbing dan orang tua/wali mahasiswa
-    akan diberitahu dan diberi notifikasi. Untuk memecahkan permasalahan ini dapat
-    menggunakan solusi design pattern. Yang manakah yang menjadi Subject-nya?
+    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat perubahan
+    pada IPK mahasiswa, maka dosen pembimbing dan orang tua/wali mahasiswa akan diberi notifikasi.
+    Untuk memecahkan permasalahan ini dapat menggunakan solusi design pattern. Yang manakah yang
+    menjadi Subject-nya?
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="20" data-value="Kampus">Kampus</button>
@@ -701,12 +519,12 @@ public class Mahasiswa {
     <span class="question-number">Question 21</span>
   </div>
   <p class="question-text">
-    Isikan dengan pasangan yang sesuai (pilih prinsip yang tepat untuk tiap pernyataan):
+    Isikan dengan pasangan yang sesuai ...
   </p>
 
   <p class="question-text small">
-    1. Clients should not be forced to depend upon interfaces that they do not use.
-    Interface harus dibuat minimal sesuai dengan kebutuhan kelas.
+    Clients should not be forced to depend upon interfaces that they do not use. Interface harus
+    dibuat minimal sesuai dengan kebutuhan kelas.
   </p>
   <select class="dropdown-select" id="q21-1">
     <option value="">-- pilih prinsip --</option>
@@ -718,8 +536,8 @@ public class Mahasiswa {
   </select>
 
   <p class="question-text small">
-    2. Sebuah fungsi yang menggunakan referensi sebuah kelas induk harus dapat digunakan
-    juga oleh objek yang bertipe kelas turunan dari kelas induk tersebut.
+    Sebuah fungsi yang menggunakan referensi sebuah kelas induk harus dapat digunakan juga
+    oleh objek yang bertipe kelas turunan dari kelas induk tersebut.
   </p>
   <select class="dropdown-select" id="q21-2">
     <option value="">-- pilih prinsip --</option>
@@ -731,8 +549,8 @@ public class Mahasiswa {
   </select>
 
   <p class="question-text small">
-    3. Sebuah fungsionalitas baru ditambahkan dengan membuat kelas, method atau field
-    baru, bukan menggantikan kode yang sudah teruji.
+    Sebuah fungsionalitas baru ditambahkan dengan membuat kelas, method atau field baru,
+    bukan menggantikan kode yang sudah teruji.
   </p>
   <select class="dropdown-select" id="q21-3">
     <option value="">-- pilih prinsip --</option>
@@ -744,7 +562,7 @@ public class Mahasiswa {
   </select>
 </section>
 
-<!-- Question 22 (singleton Administrator, Gambar 11) -->
+<!-- Question 22 (single, singleton Administrator, Gambar 11) -->
 <section class="question" id="q22">
   <div class="question-header">
     <span class="question-number">Question 22</span>
@@ -777,7 +595,7 @@ public class Mahasiswa {
   </div>
 </section>
 
-<!-- Question 23 (True/False, Composite kelas Collection) -->
+<!-- Question 23 (single, Composite + Collection) -->
 <section class="question" id="q23">
   <div class="question-header">
     <span class="question-number">Question 23</span>
@@ -797,13 +615,13 @@ public class Mahasiswa {
   </div>
 </section>
 
-<!-- Question 24 (text, pattern pada Gambar 12) -->
+<!-- Question 24 (text, pattern Gambar 12) -->
 <section class="question" id="q24">
   <div class="question-header">
     <span class="question-number">Question 24</span>
   </div>
   <p class="question-text">
-    Kode program pada Gambar 12 merupakan kode program untuk pattern ...
+    Kode program pada Gambar 12 merupakan kode program untuk pattern
   </p>
 
   <div class="question-image-wrapper">
@@ -818,7 +636,7 @@ public class Mahasiswa {
   >
 </section>
 
-<!-- Question 25 (True/False, DIP pada Gambar 3) -->
+<!-- Question 25 (single, DIP di Gambar 3) -->
 <section class="question" id="q25">
   <div class="question-header">
     <span class="question-number">Question 25</span>
@@ -836,8 +654,7 @@ public class Mahasiswa {
     <button class="option-btn" data-question="25" data-value="False">False</button>
   </div>
 </section>
-
-<!-- Question 26 (multi, tipe-tipe pattern) -->
+    <!-- Question 26 (multi, tipe-tipe pattern) -->
 <section class="question" id="q26">
   <div class="question-header">
     <span class="question-number">Question 26</span>
@@ -855,13 +672,13 @@ public class Mahasiswa {
   <p class="hint">Jawaban bisa lebih dari satu.</p>
 </section>
 
-<!-- Question 27 (text, pattern pada Gambar 10) -->
+<!-- Question 27 (text, pattern Gambar 10) -->
 <section class="question" id="q27">
   <div class="question-header">
     <span class="question-number">Question 27</span>
   </div>
   <p class="question-text">
-    Kode program pada Gambar 10 merupakan kode program untuk pattern ...
+    Kode program pada Gambar 10 merupakan kode program untuk pattern
   </p>
 
   <div class="question-image-wrapper">
@@ -876,7 +693,7 @@ public class Mahasiswa {
   >
 </section>
 
-<!-- Question 28 (single, displayPegawai di arsitektur layer) -->
+<!-- Question 28 (single, displayPegawai pada layer) -->
 <section class="question" id="q28">
   <div class="question-header">
     <span class="question-number">Question 28</span>
@@ -907,9 +724,9 @@ public Pegawai displayPegawai(String name) {
     <span class="question-number">Question 29</span>
   </div>
   <p class="question-text">
-    Dalam konteks arsitektur layer, akses database dilakukan pada kelas dao. Diberikan
-    potongan kode seperti pada Gambar 1. Dari baris-baris kode tersebut, bagian mana
-    yang menunjukkan penggunaan kode yang salah (diisi dengan nomor bagian)?
+    Dalam konteks arsitektur layer, akses database dilakukan pada kelas dao. Diberikan potongan kode
+    seperti pada Gambar 1. Dari baris-baris kode tersebut, bagian mana yang menunjukkan penggunaan kode
+    yang salah (diisi dengan nomor bagian)?
   </p>
 
   <div class="question-image-wrapper">
@@ -930,9 +747,8 @@ public Pegawai displayPegawai(String name) {
     <span class="question-number">Question 30</span>
   </div>
   <p class="question-text">
-    Adanya perubahan pada state dari sebuah objek, maka semua objek yang dependent
-    terhadap objek tersebut juga akan diberitahu dan update secara otomatis, merupakan
-    pengertian dari pattern ...
+    Adanya perubahan pada state dari sebuah objek, maka semua objek yang dependent terhadap objek
+    tersebut juga akan diberitahu dan update secara otomatis, merupakan pengertian dari pattern
   </p>
   <input
     type="text"
@@ -942,7 +758,7 @@ public Pegawai displayPegawai(String name) {
   >
 </section>
 
-<!-- Question 31 -->
+<!-- Question 31 (single, Persistent Object) -->
 <section class="question" id="q31">
   <div class="question-header">
     <span class="question-number">Question 31</span>
@@ -969,17 +785,16 @@ public Pegawai displayPegawai(String name) {
   </div>
 </section>
 
-<!-- Question 32 -->
+<!-- Question 32 (single, Collection untuk observer) -->
 <section class="question" id="q32">
   <div class="question-header">
     <span class="question-number">Question 32</span>
   </div>
   <p class="question-text">
-    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat
-    perubahan pada IPK mahasiswa, maka dosen pembimbing dan orang tua/wali mahasiswa
-    akan diberi notifikasi. Untuk memecahkan permasalahan ini dapat menggunakan solusi
-    design pattern. Dimanakah terdapat atribut bertipe <code>Collection</code> untuk
-    menampung kelas-kelas Observer?
+    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat perubahan pada
+    IPK mahasiswa, maka dosen pembimbing dan orang tua/wali mahasiswa akan diberi notifikasi. Untuk
+    memecahkan permasalahan ini dapat menggunakan solusi design pattern. Dimanakah terdapat atribut
+    bertipe <code>Collection</code> untuk menampung kelas-kelas Observer?
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="32" data-value="InterfaceSubject">
@@ -1000,7 +815,7 @@ public Pegawai displayPegawai(String name) {
   </div>
 </section>
 
-<!-- Question 33 -->
+<!-- Question 33 (single, level testing KECUALI) -->
 <section class="question" id="q33">
   <div class="question-header">
     <span class="question-number">Question 33</span>
@@ -1027,7 +842,7 @@ public Pegawai displayPegawai(String name) {
   </div>
 </section>
 
-<!-- Question 34 -->
+<!-- Question 34 (single, ConcatTest assertEquals) -->
 <section class="question" id="q34">
   <div class="question-header">
     <span class="question-number">Question 34</span>
@@ -1079,14 +894,14 @@ public class ConcatTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 35 -->
+<!-- Question 35 (single, helper methods) -->
 <section class="question" id="q35">
   <div class="question-header">
     <span class="question-number">Question 35</span>
   </div>
   <p class="question-text">
-    Berikut ini merupakan helper methods yang digunakan untuk membantu menentukan
-    apakah sebuah fungsi berperilaku benar atau tidak.
+    Berikut ini merupakan helper methods yang digunakan untuk membantu menentukan apakah sebuah fungsi berperilaku benar
+    atau tidak.
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="35" data-value="assertFalse">assertFalse</button>
@@ -1097,19 +912,19 @@ public class ConcatTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 36 -->
+<!-- Question 36 (single, yang diuji dalam unit testing) -->
 <section class="question" id="q36">
   <div class="question-header">
     <span class="question-number">Question 36</span>
   </div>
   <p class="question-text">
-    Yang diuji dalam unit testing dapat berupa:
+    Yang diuji dalam unit testing dapat berupa
   </p>
   <div class="options" data-multi="false">
-    <button class="option-btn" data-question="36" data-value="Sistem">
+    <button class="option-btn" data-question="36" data-value="KeseluruhanSistem">
       Keseluruhan sistem
     </button>
-    <button class="option-btn" data-question="36" data-value="Kelas">
+    <button class="option-btn" data-question="36" data-value="SebuahKelas">
       Sebuah kelas
     </button>
     <button class="option-btn" data-question="36" data-value="Fungsi">
@@ -1124,14 +939,14 @@ public class ConcatTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 37 -->
+<!-- Question 37 (single, definisi pattern) -->
 <section class="question" id="q37">
   <div class="question-header">
     <span class="question-number">Question 37</span>
   </div>
   <p class="question-text">
-    Menciptakan sebuah instance dari beberapa kemungkinan kelas turunan tergantung
-    pada data inputan yang tersedia, merupakan pengertian dari pattern:
+    Menciptakan sebuah instance dari beberapa kemungkinan kelas turunan tergantung pada data inputan yang tersedia,
+    merupakan pengertian dari pattern
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="37" data-value="Builder">Builder</button>
@@ -1142,7 +957,7 @@ public class ConcatTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 38 -->
+<!-- Question 38 (multi, pernyataan BENAR tentang Gambar 3) -->
 <section class="question" id="q38">
   <div class="question-header">
     <span class="question-number">Question 38</span>
@@ -1175,15 +990,14 @@ public class ConcatTest extends junit.framework.TestCase {
   <p class="hint">Pilih semua pernyataan yang benar.</p>
 </section>
 
-<!-- Question 39 -->
+<!-- Question 39 (single, prinsip BankAccount) -->
 <section class="question" id="q39">
   <div class="question-header">
     <span class="question-number">Question 39</span>
   </div>
   <p class="question-text">
-    Apabila didefinisikan bahwa sebuah operasi yang bisa dikenakan atas tabungan adalah
-    membuka tabungan, menyimpan uang, dan menarik uang, maka interface
-    <code>BankAccount</code> pada Gambar 5 sudah memenuhi prinsip:
+    Apabila didefinisikan bahwa sebuah operasi yang bisa dikenakan atas tabungan adalah membuka tabungan, menyimpan uang,
+    dan menarik uang, maka interface <code>BankAccount</code> pada Gambar 5 sudah memenuhi prinsip:
   </p>
 
   <div class="question-image-wrapper">
@@ -1209,7 +1023,7 @@ public class ConcatTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 40 -->
+<!-- Question 40 (single, namaMethod di interface layer) -->
 <section class="question" id="q40">
   <div class="question-header">
     <span class="question-number">Question 40</span>
@@ -1226,8 +1040,8 @@ public void namaMethod() {
 }
   </pre>
   <p class="question-text">
-    Method berikut ini terdapat pada interface layer dan merupakan method yang benar
-    untuk memasukkan data prodi ke combo box prodi.
+    Method berikut ini terdapat pada interface layer dan merupakan method yang benar untuk memasukkan data prodi ke combo
+    box prodi.
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="40" data-value="True">True</button>
@@ -1235,7 +1049,7 @@ public void namaMethod() {
   </div>
 </section>
 
-<!-- Question 41 -->
+<!-- Question 41 (single, CounterTest 100% failed) -->
 <section class="question" id="q41">
   <div class="question-header">
     <span class="question-number">Question 41</span>
@@ -1292,15 +1106,14 @@ public class CounterTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 42 -->
+<!-- Question 42 (single, fungsi executeQuery) -->
 <section class="question" id="q42">
   <div class="question-header">
     <span class="question-number">Question 42</span>
   </div>
   <p class="question-text">
-    Pada class DAO terdapat dua method dari kelas <code>Statement</code>, yaitu
-    <code>executeQuery()</code> dan <code>executeUpdate()</code>. Method
-    <code>executeQuery()</code> digunakan untuk:
+    Pada class DAO terdapat dua method dari kelas <code>Statement</code>, yaitu <code>executeQuery()</code> dan
+    <code>executeUpdate()</code>. Method <code>executeQuery()</code> digunakan untuk
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="42" data-value="SelectOnly">
@@ -1321,15 +1134,15 @@ public class CounterTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 43 -->
+<!-- Question 43 (single, pattern IPK notifikasi) -->
 <section class="question" id="q43">
   <div class="question-header">
     <span class="question-number">Question 43</span>
   </div>
   <p class="question-text">
-    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat
-    perubahan pada IPK mahasiswa, maka dosen pembimbing dan orang tua/wali mahasiswa
-    akan diberi notifikasi. Untuk memecahkan permasalahan ini dapat menggunakan solusi pattern:
+    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat perubahan pada
+    IPK mahasiswa, maka dosen pembimbing dan orang tua/wali mahasiswa akan diberi notifikasi. Untuk
+    memecahkan permasalahan ini dapat menggunakan solusi pattern
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="43" data-value="Composite">Composite</button>
@@ -1340,14 +1153,14 @@ public class CounterTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 44 -->
+<!-- Question 44 (single, SRP & ISP turunkan kohesi?) -->
 <section class="question" id="q44">
   <div class="question-header">
     <span class="question-number">Question 44</span>
   </div>
   <p class="question-text">
-    Single Responsibility Principle dan Interface Segregation Principle pada prinsipnya
-    pattern yang digunakan untuk menurunkan kohesivitas.
+    Single Responsibility Principle dan Interface Segregation Principle pada prinsipnya pattern yang digunakan untuk
+    menurunkan kohesivitas
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="44" data-value="True">True</button>
@@ -1355,14 +1168,14 @@ public class CounterTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 45 -->
+<!-- Question 45 (single, Leaf Composite) -->
 <section class="question" id="q45">
   <div class="question-header">
     <span class="question-number">Question 45</span>
   </div>
   <p class="question-text">
-    Lihat Gambar 6. Kelas <code>Leaf</code> pada Composite Pattern memungkinkan untuk
-    memiliki struktur pohon lain di dalamnya.
+    Lihat Gambar 6. Kelas <code>Leaf</code> pada Composite Pattern memungkinkan untuk memiliki struktur pohon lain di
+    dalamnya.
   </p>
 
   <div class="question-image-wrapper">
@@ -1381,30 +1194,27 @@ public class CounterTest extends junit.framework.TestCase {
     <span class="question-number">Question 46</span>
   </div>
   <p class="question-text">
-    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat
-    perubahan pada IPK mahasiswa, maka dosen pembimbing dan orang tua/wali mahasiswa
-    akan diberi notifikasi. Untuk memecahkan permasalahan ini dapat menggunakan solusi
-    design pattern. Yang manakah yang menjadi Observer-nya?
+    Sebuah kampus ingin membuat program untuk memonitor IPK mahasiswa. Jika terdapat perubahan pada IPK mahasiswa, maka
+    dosen pembimbing dan orang tua/wali mahasiswa akan diberi notifikasi. Untuk memecahkan permasalahan ini dapat
+    menggunakan solusi design pattern. Yang manakah yang menjadi Observer-nya
   </p>
   <div class="options" data-multi="true">
     <button class="option-btn" data-question="46" data-value="Kampus">Kampus</button>
-    <button class="option-btn" data-question="46" data-value="OrangTua">Orang tua</button>
+    <button class="option-btn" data-question="46" data-value="Orang tua">Orang tua</button>
     <button class="option-btn" data-question="46" data-value="Wali">Wali</button>
-    <button class="option-btn" data-question="46" data-value="DosenPembimbing">
-      Dosen Pembimbing
-    </button>
+    <button class="option-btn" data-question="46" data-value="Dosen Pembimbing">Dosen Pembimbing</button>
     <button class="option-btn" data-question="46" data-value="Mahasiswa">Mahasiswa</button>
   </div>
   <p class="hint">Jawaban bisa lebih dari satu.</p>
 </section>
 
-<!-- Question 47 (komponen UI NetBeans) -->
+<!-- Question 47 (single, komponen UI NetBeans) -->
 <section class="question" id="q47">
   <div class="question-header">
     <span class="question-number">Question 47</span>
   </div>
   <p class="question-text">
-    Berikut ini merupakan komponen-komponen UI pada Netbeans:
+    Berikut ini merupakan komponen-komponen UI pada Netbeans
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="47" data-value="jTableArea">jTableArea</button>
@@ -1421,8 +1231,8 @@ public class CounterTest extends junit.framework.TestCase {
     <span class="question-number">Question 48</span>
   </div>
   <p class="question-text">
-    Pada prinsip perancangan kelas, perubahan pada satu kelas tidak memiliki pengaruh
-    yang besar pada kelas lain disebut dengan ... coupling.
+    Pada prinsip perancangan kelas, perubahan pada satu kelas tidak memiliki pengaruh yang besar pada kelas lain disebut dengan
+    ... coupling
   </p>
   <input
     type="text"
@@ -1432,15 +1242,14 @@ public class CounterTest extends junit.framework.TestCase {
   >
 </section>
 
-<!-- Question 49 (executeUpdate) -->
+<!-- Question 49 (single, fungsi executeUpdate) -->
 <section class="question" id="q49">
   <div class="question-header">
     <span class="question-number">Question 49</span>
   </div>
   <p class="question-text">
-    Pada class DAO terdapat dua method dari kelas <code>Statement</code>, yaitu
-    <code>executeQuery()</code> dan <code>executeUpdate()</code>. Method
-    <code>executeUpdate()</code> digunakan untuk:
+    Pada class DAO terdapat dua method dari kelas <code>Statement</code>, yaitu <code>executeQuery()</code> dan
+    <code>executeUpdate()</code>. Method <code>executeUpdate()</code> digunakan untuk
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="49" data-value="SelectOnly">
@@ -1461,7 +1270,7 @@ public class CounterTest extends junit.framework.TestCase {
   </div>
 </section>
 
-<!-- Question 50 (multi, pernyataan benar KECUALI tentang Gambar 4 & 5) -->
+<!-- Question 50 (multi, pernyataan BENAR KECUALI ttg Gambar 4 & 5) -->
 <section class="question" id="q50">
   <div class="question-header">
     <span class="question-number">Question 50</span>
@@ -1479,8 +1288,7 @@ public class CounterTest extends junit.framework.TestCase {
 
   <div class="options" data-multi="true">
     <button class="option-btn" data-question="50" data-value="ICurrencyDIP">
-      Penggunaan interface ICurrency dan kelas Coins menunjukkan penerapan
-      prinsip Dependency Inversion Principle
+      Penggunaan interface ICurrency dan kelas Coins menunjukkan penerapan prinsip Dependency Inversion Principle
     </button>
     <button class="option-btn" data-question="50" data-value="OCPNotUsed">
       Prinsip Open Closed Principle tidak digunakan dalam kode program
@@ -1492,31 +1300,28 @@ public class CounterTest extends junit.framework.TestCase {
       Kelas SavingsAccount telah memenuhi prinsip Single Responsibility Principle.
     </button>
     <button class="option-btn" data-question="50" data-value="ChequeNoEffectSavings">
-      Penambahan kelas Cheque yang mengimplementasikan ICurrency tidak akan membawa
-      pengaruh pada kelas SavingsAccount (catatan: tipe data amt pada fungsi store
-      diisi dengan tipe data yang tepat)
+      Penambahan kelas Cheque yang mengimplementasikan ICurrency tidak akan membawa pengaruh pada kelas SavingsAccount
+      (catatan : tipe data amt pada fungsi store di isi dengan tipe data yang tepat)
     </button>
   </div>
-  <p class="hint">Pilih semua pernyataan yang benar, kemudian cari yang KECUALI.</p>
+  <p class="hint">Pilih semua pernyataan yang benar, lalu cari yang KECUALI.</p>
 </section>
-
-<!-- Question 51 (multi, hirarki pejabat Gambar 8 & 9) -->
+      <!-- Question 51 (multi, hirarki pejabat Gambar 8 & 9) -->
 <section class="question" id="q51">
   <div class="question-header">
     <span class="question-number">Question 51</span>
   </div>
   <p class="question-text">
-    (Lihat Gambar 8 dan Gambar 9)<br>
+    (LIHAT GAMBAR 8 DAN GAMBAR 9)<br>
     Potongan main program:
   </p>
   <pre class="code-block">
-PejabatTinggi Gub = new PejabatTinggi("D.I.Yogyakarta","Gubernur",
-                                      "Sultan Hamengku Buwono X");
-PejabatTinggi B = new PejabatTinggi("Bantul","Bupati","Suharsono");
-PejabatTinggi S = new PejabatTinggi("Sleman","Bupati","Sri Purnomo");
-PejabatRendah Bh = new PejabatRendah("Berbah","Camat","Tina Hastani");
-PejabatRendah C = new PejabatRendah("Cangkringan","Camat","Edi Harmana");
-PejabatRendah D = new PejabatRendah("Depok","Camat","Budiharjo");
+PejabatTinggi Gub = new PejabatTinggi("D.I.Yogyakarta","Gubernur","Sultan Hamengku Buwono X");
+PejabatTinggi B   = new PejabatTinggi("Bantul","Bupati","Suharsono");
+PejabatTinggi S   = new PejabatTinggi("Sleman","Bupati","Sri Purnomo");
+PejabatRendah Bh  = new PejabatRendah("Berbah","Camat","Tina Hastani");
+PejabatRendah C   = new PejabatRendah("Cangkringan","Camat","Edi Harmana");
+PejabatRendah D   = new PejabatRendah("Depok","Camat","Budiharjo");
   </pre>
 
   <div class="question-image-wrapper">
@@ -1537,20 +1342,20 @@ PejabatRendah D = new PejabatRendah("Depok","Camat","Budiharjo");
       Gub.addChild(B); Gub.addChild(S); S.addChild(Bh); S.addChild(C); S.addChild(D);
     </button>
     <button class="option-btn" data-question="51" data-value="SChildBhdCd">
-      S.addChild(Bh); S.addChild(C); S.addChild(D);
+      S.addChild(Bh); S.addChild(C); S.addChild(D); Gub.addChild(B); Gub.addChild(S);
     </button>
-    <button class="option-btn" data-question="51" data-value="GubChildBSOnly">
+    <button class="option-btn" data-question="51" data-value="GubChildBSOnlyTwice">
       Gub.addChild(B); Gub.addChild(S); Gub.addChild(B); Gub.addChild(S);
     </button>
-    <button class="option-btn" data-question="51" data-value="BChildBhdCdEtc">
+    <button class="option-btn" data-question="51" data-value="BChildChainWrong">
       B.addChild(Bh); B.addChild(C); B.addChild(D); Bh.addChild(S); C.addChild(S);
       D.addChild(S); S.addChild(Gub); B.addChild(Gub);
     </button>
   </div>
-  <p class="hint">Jawaban bisa lebih dari satu, pilih kombinasi yang sesuai dengan Gambar 8.</p>
+  <p class="hint">Jawaban bisa lebih dari satu.</p>
 </section>
 
-<!-- Question 52 (ProdiView membuka MahasiswaView) -->
+<!-- Question 52 (single, ProdiView membuka MahasiswaView) -->
 <section class="question" id="q52">
   <div class="question-header">
     <span class="question-number">Question 52</span>
@@ -1566,8 +1371,7 @@ private void buttonActionPerformed(java.awt.event.ActionEvent evt) {
 }
   </pre>
   <p class="question-text">
-    Code berikut terletak pada interface layer pada kelas <code>ProdiView</code> dan
-    berfungsi untuk:
+    Code berikut terletak pada interface layer pada kelas <code>ProdiView</code> dan berfungsi untuk:
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="52" data-value="OpenMahasiswa">
@@ -1588,15 +1392,15 @@ private void buttonActionPerformed(java.awt.event.ActionEvent evt) {
   </div>
 </section>
 
-<!-- Question 53 (kelas table turunan) -->
+<!-- Question 53 (single, kelas table turunan) -->
 <section class="question" id="q53">
   <div class="question-header">
     <span class="question-number">Question 53</span>
   </div>
   <p class="question-text">
-    Untuk memanfaatkan komponen table pada UI untuk menampilkan dan berinteraksi dengan
-    data, kita perlu membuat kelas table untuk mempermudah dalam menampilkan data atau
-    mengambil data dari komponen table. Kelas table tersebut harus merupakan turunan dari kelas:
+    Untuk memanfaatkan komponen table pada UI untuk menampilkan dan berinteraksi dengan data, kita perlu membuat
+    kelas table untuk mempermudah dalam menampilkan data atau mengambil data dari komponen table. Kelas table
+    tersebut harus merupakan turunan dari kelas:
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="53" data-value="AbstractTableModel">
@@ -1617,7 +1421,7 @@ private void buttonActionPerformed(java.awt.event.ActionEvent evt) {
   </div>
 </section>
 
-<!-- Question 54 (True/False, showMahasiswa di control layer) -->
+<!-- Question 54 (single, showMahasiswa di control layer) -->
 <section class="question" id="q54">
   <div class="question-header">
     <span class="question-number">Question 54</span>
@@ -1626,15 +1430,16 @@ private void buttonActionPerformed(java.awt.event.ActionEvent evt) {
     Perhatikan potongan kode berikut:
   </p>
   <pre class="code-block">
-public TableMahasiswa showMahasiswa(String query) {
+public TableMahasiswa showMahasiswa(String query)
+{
     List<Mahasiswa> dataMahasiswa = mDao.showMahasiswa(query);
     TableMahasiswa tableMahasiswa = new TableMahasiswa(dataMahasiswa);
     return dataMahasiswa;
 }
   </pre>
   <p class="question-text">
-    Berdasarkan kasus pada tutorial, code tersebut terletak pada control layer dan
-    merupakan method yang benar untuk menampilkan semua data mahasiswa.
+    Berdasarkan kasus pada tutorial, code tersebut terletak pada control layer dan merupakan method yang benar untuk
+    menampilkan semua data mahasiswa.
   </p>
   <div class="options" data-multi="false">
     <button class="option-btn" data-question="54" data-value="True">True</button>
@@ -1642,14 +1447,14 @@ public TableMahasiswa showMahasiswa(String query) {
   </div>
 </section>
 
-<!-- Question 55 (multi, test case pada Gambar 14) -->
+<!-- Question 55 (multi, test case stack Gambar 14) -->
 <section class="question" id="q55">
   <div class="question-header">
     <span class="question-number">Question 55</span>
   </div>
   <p class="question-text">
-    Perhatikan Gambar 14. Berikut ini adalah pernyataan yang BENAR untuk test case
-    untuk menguji fungsi yang ada pada Gambar 14.
+    Perhatikan Gambar 14. Berikut ini adalah pernyataan yang BENAR untuk test case untuk menguji fungsi yang ada
+    pada Gambar 14.
   </p>
 
   <div class="question-image-wrapper">
@@ -1658,29 +1463,29 @@ public TableMahasiswa showMahasiswa(String query) {
 
   <div class="options" data-multi="true">
     <button class="option-btn" data-question="55" data-value="PopTopGt0Expect23">
-      Untuk fungsi pop, input : --, condition: top &gt; 0, expected output : 23.
+      Untuk fungsi pop, input : --, condion: top &gt; 0, expected output : 23.
     </button>
     <button class="option-btn" data-question="55" data-value="Push23TopLtMax1">
-      Untuk fungsi push, input : 23, condition: top &lt; MAX-1, expected output :
+      Untuk fungsi push, input : 23, condion: top &lt; MAX-1, expected output :
       23 berhasil dimasukkan dalam stack.
     </button>
     <button class="option-btn" data-question="55" data-value="CtorStackTop0">
-      Untuk konstruktor Stack, input : --, condition: true, expected output :
+      Untuk konstruktor Stack, input : --, condion: true, expected output :
       stack berhasil dibuat, top = 0
     </button>
     <button class="option-btn" data-question="55" data-value="Push34TopEqMax1">
-      Untuk fungsi push, input : 34, condition: top = MAX-1, expected output :
-      stack overflow.
+      Untuk fungsi push, input : 34, condion: top = MAX-1, expected output :
+      stack overﬂow.
     </button>
     <button class="option-btn" data-question="55" data-value="PopTopEq0Underflow">
-      Untuk fungsi pop, input : --, condition: top = 0, expected output :
-      stack underflow.
+      Untuk fungsi pop, input : --, condion: top = 0, expected output :
+      stack underﬂow.
     </button>
   </div>
   <p class="hint">Pilih semua pernyataan yang benar.</p>
 </section>
 
-<!-- Question 56 (True/False, kombinasi pattern) -->
+<!-- Question 56 (single, menggabungkan beberapa pattern) -->
 <section class="question" id="q56">
   <div class="question-header">
     <span class="question-number">Question 56</span>
@@ -1700,8 +1505,8 @@ public TableMahasiswa showMahasiswa(String query) {
     <span class="question-number">Question 57</span>
   </div>
   <p class="question-text">
-    Jika pada program terdapat lima kelas entity yang harus dibuat persisten, maka
-    programmer direkomendasikan membuat DAO sejumlah (isilah titik-titik dengan angka)....
+    Jika pada program terdapat lima kelas entity yang harus dibuat persisten, maka programmer direkomendasikan
+    membuat DAO sejumlah (isilah titik-titik dengan angka)....
   </p>
   <input
     type="text"
@@ -1711,7 +1516,7 @@ public TableMahasiswa showMahasiswa(String query) {
   >
 </section>
 
-<!-- Question 58 (test fixture) -->
+<!-- Question 58 (single, test fixture) -->
 <section class="question" id="q58">
   <div class="question-header">
     <span class="question-number">Question 58</span>
@@ -1728,7 +1533,7 @@ public TableMahasiswa showMahasiswa(String query) {
   </div>
 </section>
 
-<!-- Question 59 (updatePegawai, DAO layer) -->
+<!-- Question 59 (single, updatePegawai di DAO) -->
 <section class="question" id="q59">
   <div class="question-header">
     <span class="question-number">Question 59</span>
@@ -1756,7 +1561,7 @@ public void updatePegawai(Pegawai p) {
   </div>
 </section>
 
-<!-- Question 60 (Composite Gambar 7) -->
+<!-- Question 60 (single, pattern hirarki Gambar 7) -->
 <section class="question" id="q60">
   <div class="question-header">
     <span class="question-number">Question 60</span>
