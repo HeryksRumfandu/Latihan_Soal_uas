@@ -4,7 +4,7 @@
 
 const answerKey = {
   // 1–10
-  1: { type: "multi", correct: ["Observer", "Factory", "Singleton"] },
+  1: { type: "multi", correct: ["Factory", "Singleton"] },
 
   2: { type: "text", correctText: "icurrency" },
 
