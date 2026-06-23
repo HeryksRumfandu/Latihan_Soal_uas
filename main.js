@@ -10,7 +10,7 @@ const answerKey = {
 
   3: {
     type: "multi",
-    correct: ["CompositeDefinition", "PatternDefinition"]
+    correct: ["SingletonAllClasses","CompositeDefinition", "PatternDefinition"]
   },
 
   4: {
